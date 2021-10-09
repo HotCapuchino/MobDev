@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Random Film</string>
+    <string name="next_movie">Следующий фильм</string>
+    <string name="reset_movie">Сбросить</string>
+    <array name="movies_array">
+        <item>Начало</item>
+        <item>Интерстеллар</item>
+        <item>Бегущий по лезвию</item>
+        <item>Малыш на драйве</item>
+        <item>Дьявол в мелочах</item>
+    </array>
+</resources>
