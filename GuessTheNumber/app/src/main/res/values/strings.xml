@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GuessTheNumber</string>
+    <string name="first_num_placeholder">Enter the start number of the range</string>
+    <string name="second_num_placeholder">Enter the end number of the range</string>
+    <string name="start_game">Start game</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="main_menu">Go to main menu</string>
+    <string name="question_gr">Is your number greater then</string>
+    <string name="question_ls">Is your number less then</string>
+</resources>
