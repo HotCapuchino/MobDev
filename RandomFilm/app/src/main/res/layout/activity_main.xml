@@ -7,32 +7,102 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:id="@+id/filmInfoLayout"
+        android:visibility="gone"
+        tools:context=".MainActivity"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/filmName"
+            android:layout_marginBottom="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:maxHeight="200dp"
+            android:id="@+id/filmImage"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filmDirector"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filmActors"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filmBudget"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нажмите на кнопку 'Следуюший фильм', чтобы увидеть фильм"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:id="@+id/randomFilm"
+        android:id="@+id/infoField"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/next_movie"
-        android:onClick="onNext"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/reset_movie"
-        android:onClick="onReset"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        tools:context=".MainActivity"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/next_movie"
+            android:onClick="onNext"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/reset_movie"
+            android:onClick="onReset"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>

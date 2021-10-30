@@ -1,0 +1,44 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Начало",
+      "image": "https://cinemax.ru/wp-content/uploads/2020/07/orig-1.jpg",
+      "director": "Кристофер Нолан",
+      "actors": ["Лео ДиКаприо", "Элиот Пейдж", "Киллиан Мерфи", "Джозеф Гордон Левитт"],
+      "budget": "$828 322 032"
+    },
+    {
+      "id": 2,
+      "name": "Интерстеллар",
+      "image": "https://i.artfile.ru/4100x2300_887339_[www.ArtFile.ru].jpg",
+      "director": "Кристофер Нолан",
+      "actors": ["Мэттью Макконахи", "Энн Хэтуэй", "Джессика Частейн", "Маккензи Фой"],
+      "budget": "$677 896 797"
+    },
+    {
+      "id": 3,
+      "name": "Бегущий По Лезвию",
+      "image": "https://get.wallhere.com/photo/1920x1080-px-Ana-de-Armas-Blade-Runner-blade-runner-2049-blue-hair-Joi-movies-Ryan-Gosling-women-1471301.jpg",
+      "director": "Дени Вильнев",
+      "actors": ["Райан Гослинг", "Ана Де Армас", "Харрисон Форд", "Джаред Лето"],
+      "budget": "$259 239 658"
+    },
+    {
+      "id": 4,
+      "name": "Малыш На Драйве",
+      "image": "https://sub-cult.ru/images/2017/Strogalschikova/mal_na_dr2.jpg",
+      "director": "Эдгар Райт",
+      "actors": ["Энсел Эльгорт", "Кевин Спейси", "Лили Джеймс", "Эльса Гонсалес"],
+      "budget": "$226 945 087"
+    },
+    {
+      "id": 5,
+      "name": "Дьявол в деталях",
+      "image": "https://pbs.twimg.com/media/EtPBMx-XIAIt1bN.jpg:large",
+      "director": "Джон Ли Хэнкок",
+      "actors": ["Дензел Вашингтон", "Джаред Лето", "Рами Малек", "Крис Бауэр"],
+      "budget": "$29 844 012"
+    }
+  ]
+}
