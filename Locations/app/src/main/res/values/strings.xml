@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Locations</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="location_activity">Location Activity</string>
+    <string name="main_activity_title">Choose any city from dropdown below</string>
+    <string name="main_activity_spinner_hint">Choose city</string>
+    <string name="main_activity_location_prompt">Prompt max range in kilometers</string>
+    <string name="main_activity_location_hint">Range in kilometers</string>
+    <string name="main_activity_show_button">Show cities</string>
+    <string name="location_activity_title">Cities located within prompted range</string>
+    <string name="location_activity_go_back">Go Back</string>
+    <string name="location_activity_no_cities">No cities are located within prompted range...</string>
+</resources>
