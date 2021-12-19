@@ -1,0 +1,13 @@
+data class App(
+    val name: String,
+    val rating: Double,
+    val reviews: String,
+    val size: String,
+    val installs: Int,
+    val type: String,
+    val price: Boolean,
+    val contentRating: String,
+    val genres: ArrayList<String>,
+    val lastUpdated: String,
+    val currentVer: String,
+    val androidVer: String)
