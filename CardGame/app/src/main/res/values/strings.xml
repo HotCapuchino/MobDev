@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CardGame</string>
+    <string name="main_activity_settings_title">Choose settings for a game</string>
+</resources>
