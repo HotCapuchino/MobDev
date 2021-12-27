@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="cards_images">
+        <item>@drawable/buda_dangerous</item>
+        <item>@drawable/buda_fat</item>
+        <item>@drawable/buda_hitler</item>
+        <item>@drawable/buda_moustache</item>
+        <item>@drawable/buda_nature</item>
+        <item>@drawable/buda_rage</item>
+        <item>@drawable/buda_romantic</item>
+        <item>@drawable/buda_sleepy</item>
+        <item>@drawable/buda_stupid</item>
+        <item>@drawable/buda_despair</item>
+        <item>@drawable/buda_dumbass</item>
+    </integer-array>
+</resources>

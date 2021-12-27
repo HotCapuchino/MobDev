@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/buda_dangerous"></item>
+    <item android:drawable="@drawable/buda_fat"></item>
+    <item android:drawable="@drawable/buda_hitler"></item>
+    <item android:drawable="@drawable/buda_moustache"></item>
+    <item android:drawable="@drawable/buda_nature"></item>
+    <item android:drawable="@drawable/buda_rage"></item>
+    <item android:drawable="@drawable/buda_romantic"></item>
+    <item android:drawable="@drawable/buda_sleepy"></item>
+    <item android:drawable="@drawable/buda_stupid"></item>
+    <item android:drawable="@drawable/buda_despair"></item>
+    <item android:drawable="@drawable/buda_dumbass"></item>
+</layer-list>
