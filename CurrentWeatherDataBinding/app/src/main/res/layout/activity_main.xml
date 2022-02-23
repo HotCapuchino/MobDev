@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="weatherData"
+            type="com.example.currentweatherdatabinding.dataclasses.WeatherData" />
+    </data>
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_marginTop="10dp"
+        style="@style/Theme.CurrentWeatherDataBinding">
+
+        <Spinner
+            android:id="@+id/cities_dropdown"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.25"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/city_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{String.valueOf(weatherData.description)}"
+                android:textSize="26sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@{weatherData.main.temp > 0 ? @color/above_zero : @color/below_zero}"
+                android:text="@{String.valueOf(Math.round(weatherData.main.temp)) + ` ℃`}"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@{weatherData.main.feels_like > 0 ? @color/above_zero : @color/below_zero}"
+                android:text="@{`Чувствуется как: ` + String.valueOf(Math.round(weatherData.main.feels_like)) + ` ℃`}"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{`Атмосферное давление: ` + String.valueOf(Math.round(weatherData.main.pressure / 1.33)) + ` мм. рт. ст.`}"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{`Влажность: ` + String.valueOf(Math.round(weatherData.main.humidity)) + `%`}"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@{weatherData.main.temp_min > 0 ? @color/above_zero : @color/below_zero}"
+                android:text="@{`Минимальная температура за день: ` + String.valueOf(Math.round(weatherData.main.temp_min)) + ` ℃`}"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@{weatherData.main.temp_max > 0 ? @color/above_zero : @color/below_zero}"
+                android:text="@{`Максимальная температура за день: ` + String.valueOf(Math.round(weatherData.main.temp_max)) + ` ℃`}"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{`Скорость ветра: ` + String.valueOf(weatherData.wind.speed) + ` м/с, ` + weatherData.wind.dir}"
+                />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@{`Направление ветра: ` + String.valueOf(weatherData.wind.)}"-->
+<!--                />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{`Обновлено: ` + weatherData.time}"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:text="Обновить"
+                android:onClick="onUpdateClick"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</layout>
