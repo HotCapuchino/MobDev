@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CurrentWeatherDataBinding</string>
+    <string name="app_name">Синоптик</string>
     <string-array name="cities">
         <item>Москва</item>
         <item>Санкт-Петербург</item>
@@ -22,7 +22,6 @@
         <item>Тольятти</item>
         <item>Ижевск</item>
         <item>Барнаул</item>
-        <item>Ижевск</item>
         <item>Ульяновск</item>
         <item>Иркутск</item>
         <item>Хабаровсе</item>
@@ -41,6 +40,21 @@
         <item>Севастополь</item>
         <item>Липецк</item>
     </string-array>
-
+    
     <string name="API_KEY">d6843ab8ee963f5d372296dfff62aed7</string>
+    <string name="BUNDLE_NAME">weatherData</string>
+
+    <string name="ru">Русский</string>
+    <string name="en">English</string>
+    <string name="it">Italiano</string>
+
+    <string name="updated">Обновлено:</string>
+    <string name="feels_like">Чувствуется как:</string>
+    <string name="day_max">Макс. за день</string>
+    <string name="day_min">Мин. за день</string>
+    <string name="atmo_pressure">Давление</string>
+    <string name="atmo_pressure_units">мм. рт. ст.</string>
+    <string name="wind">Ветер</string>
+    <string name="wind_speed">м/с</string>
+    <string name="humidity">Влажность</string>
 </resources>
