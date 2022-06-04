@@ -1,0 +1,24 @@
+{
+  "fiats": [
+    {
+      "name": "American Dollar",
+      "ticker": "USD",
+      "sign": "$"
+    },
+    {
+      "name": "Russian Rouble",
+      "ticker": "RUB",
+      "sign": "₽"
+    },
+    {
+      "name": "EURO",
+      "ticker": "EUR",
+      "sign": "€"
+    },
+    {
+      "name": "Chinese Yen",
+      "ticker": "CNY",
+      "sign": "¥"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "cryptos": [
+    {
+      "name": "Ethereum",
+      "ticker": "ETH"
+    },
+    {
+      "name": "Solana",
+      "ticker": "SOL"
+    },
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC"
+    },
+    {
+      "name": "Avalanche",
+      "ticker": "AVAX"
+    },
+    {
+      "name": "Polygon",
+      "ticker": "MATIC"
+    },
+    {
+      "name": "Polkadot",
+      "ticker": "DOT"
+    }
+  ]
+}
